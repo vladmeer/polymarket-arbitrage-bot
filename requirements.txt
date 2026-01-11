@@ -1,0 +1,7 @@
+web3>=6.0.0
+eth-account>=0.5.0
+cryptography>=41.0.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+requests>=2.28.0
+websockets>=12.0

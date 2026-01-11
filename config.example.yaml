@@ -1,0 +1,38 @@
+# Polymarket Arbitrage Bot Configuration
+# Copy this file to config.yaml and fill in your values
+
+# Required: Your Polymarket Safe/Proxy wallet address
+# Find at: polymarket.com/settings → General → Wallet Address
+safe_address: "0x0000000000000000000000000000000000000000"
+
+# RPC URL for Polygon
+rpc_url: "https://polygon-rpc.com"
+
+# CLOB Configuration
+clob:
+  host: "https://clob.polymarket.com"
+  chain_id: 137
+  signature_type: 2  # Gnosis Safe
+
+# Relayer Configuration (for gasless transactions)
+relayer:
+  host: "https://relayer-v2.polymarket.com"
+  tx_type: "SAFE"
+
+# Builder Program Credentials (for gasless trading)
+# Apply at: polymarket.com/settings?tab=builder
+builder:
+  api_key: ""
+  api_secret: ""
+  api_passphrase: ""
+
+# Trading Defaults
+default_token_id: ""  # Market token ID to trade
+default_size: 1.0     # Default order size
+default_price: 0.5    # Default price (50%)
+
+# Data directory for credentials
+data_dir: "credentials"
+
+# Logging level: DEBUG, INFO, WARNING, ERROR
+log_level: "INFO"

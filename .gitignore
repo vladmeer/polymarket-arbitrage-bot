@@ -1,10 +1,52 @@
-node_modules/
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.dist-info/
+build/
 dist/
+
+# Virtual environments
 .env
-.DS_Store
-*.log
-logs/
-coverage/
+.env.local
+.env.*.local
+!.env.example
+.venv/
+venv/
+ENV/
+env/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE / OS files
 .vscode/
 .idea/
+.DS_Store
+*.swp
+*.swo
 
+# Project secrets and generated config
+config.yaml
+credentials/
+
+# Logs and local data
+*.log
+
+# Node / frontend artifacts (docs examples)
+node_modules/
+.pnp.*
+.next/
+.turbo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
