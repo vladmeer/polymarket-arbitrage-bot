@@ -207,7 +207,7 @@ https://www.youtube.com/watch?v=4f6jHT4-DQs
 Vps: [@TradingVps](https://app.tradingvps.io/aff.php?aff=57)
 <img width="890" height="595" alt="534038982-fb311b59-05a6-477a-a8f0-5e8291acf1eb" src="https://github.com/user-attachments/assets/72966dac-3faa-4e93-941e-a34026d59822" />
 
-## Dutch Book Arbitrage Tool
+## Version 2 - Dutch Book Arbitrage Tool
 
 I built **Polymarket Dutch Book Arbitrage Bot** - An automated trading system that detects guaranteed-profit opportunities in Polymarket's binary markets. When UP + DOWN token prices sum to less than 1.0, the bot simultaneously buys both, locking in a risk-free profit. Real-time WebSocket monitoring with 5-40ms detection latency.
 <img width="932" height="389" alt="image (3)" src="https://github.com/user-attachments/assets/c2858820-d61c-4568-8e9f-6784ffbcc7df" />
