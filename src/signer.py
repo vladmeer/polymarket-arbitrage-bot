@@ -153,6 +153,9 @@ class OrderSigner:
         Raises:
             ValueError: If private key is invalid
         """
+        # Sanitize key
+        private_key = private_key.strip().replace('"', '').replace("'", "")
+        
         if private_key.startswith("0x"):
             private_key = private_key[2:]
 
