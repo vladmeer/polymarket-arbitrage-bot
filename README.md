@@ -134,20 +134,6 @@ await ws.run()
 | `POLY_BUILDER_API_SECRET` | Optional | Builder Program API secret |
 | `POLY_BUILDER_API_PASSPHRASE` | Optional | Builder Program passphrase |
 
-### Config File
-
-Create `config.yaml`:
-
-```yaml
-safe_address: "0xYourAddress"
-builder:
-  api_key: "your_key"
-  api_secret: "your_secret"
-  api_passphrase: "your_passphrase"
-```
-
-Load with: `TradingBot(config_path="config.yaml", private_key="0x...")`
-
 ## Gasless Trading
 
 Enable gasless trading via Builder Program:
@@ -157,15 +143,6 @@ Enable gasless trading via Builder Program:
 
 The bot automatically uses gasless mode when credentials are present.
 
-## Project Structure
-
-```
-polymarket-arbitrage-bot/
-├── src/                    # Core library
-├── apps/                   # Application entry points and strategies
-└── lib/                    # Reusable components
-```
-
 ## Security
 
 Private keys are encrypted using PBKDF2 (480,000 iterations) + Fernet symmetric encryption. Best practices:
@@ -173,23 +150,6 @@ Private keys are encrypted using PBKDF2 (480,000 iterations) + Fernet symmetric 
 - Never commit `.env` files
 - Use a dedicated trading wallet
 - Keep encrypted key files secure (permissions: 0600)
-
-## API Reference
-
-**TradingBot**: `place_order()`, `cancel_order()`, `get_open_orders()`, `get_trades()`, `get_order_book()`, `get_market_price()`
-
-**MarketWebSocket**: `subscribe()`, `run()`, `disconnect()`, `get_orderbook()`, `get_mid_price()`
-
-**GammaClient**: `get_market_info()`, `get_current_15m_market()`, `get_all_15m_markets()`
-
-## Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| Missing credentials | Set `POLY_PRIVATE_KEY` and `POLY_PROXY_WALLET` |
-| Invalid private key | Ensure 64 hex characters (0x prefix optional) |
-| Order failed | Check sufficient balance |
-| WebSocket errors | Verify network/firewall settings |
 
 ## License
 
