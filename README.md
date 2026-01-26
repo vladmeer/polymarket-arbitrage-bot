@@ -171,8 +171,9 @@ Vps: [@TradingVps](https://app.tradingvps.io/aff.php?aff=57)
 
 I built **Polymarket Dutch Book Arbitrage Bot** - An automated trading system that detects guaranteed-profit opportunities in Polymarket's binary markets. When UP + DOWN token prices sum to less than 1.0, the bot simultaneously buys both, locking in a risk-free profit. Real-time WebSocket monitoring with 5-40ms detection latency.
 <img width="932" height="389" alt="image (3)" src="https://github.com/user-attachments/assets/c2858820-d61c-4568-8e9f-6784ffbcc7df" />
-<img width="1083" height="647" alt="image (4)" src="https://github.com/user-attachments/assets/a1eb3b45-9d3a-4715-b815-a337cc62ad50" />
-<img width="1274" height="600" alt="image (3)" src="https://github.com/user-attachments/assets/dd54e771-8df7-4c59-83cd-752732a0c15d" />
+<img width="1280" height="689" alt="image (4)" src="https://github.com/user-attachments/assets/79d2b280-be8d-40bf-9af5-7b969b6ae353" />
+<img width="1149" height="312" alt="image (5)" src="https://github.com/user-attachments/assets/fe067f71-0e5d-47d3-a9cd-f136757cb91d" />
+
 
 If you need this tool, contact me.
 
